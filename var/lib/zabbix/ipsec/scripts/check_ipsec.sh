@@ -16,8 +16,8 @@ REVISION=`echo '$Revision: 2.0 $' | sed -e 's/[^0-9.]//g'`
 DOWN=""
 # ---------- Change to your needs ----------
 PLUGINPATH="/root"
-IPSECBIN="/usr/sbin/ipsec"
-FPINGBIN="/usr/bin/fping"
+IPSECBIN="/usr/sbin/strongswan"
+FPINGBIN="/usr/sbin/fping"
 # ping server in network on the other side of the tunnel
 PINGIP=1		# ping yes or no (1/0)
 USE_SUDO=0		# Run the ipsec command via sudo

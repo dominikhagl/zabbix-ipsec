@@ -1,2 +1,3 @@
 Defaults:zabbix !requiretty
-zabbix ALL = (root) NOPASSWD: /usr/local/lib/zabbix/externalscripts/check_ipsec.sh
+zabbix ALL = (root) NOPASSWD: /var/lib/zabbix/ipsec/scripts/discover_conns.py
+zabbix ALL = (root) NOPASSWD: /var/lib/zabbix/ipsec/scripts/check_ipsec.sh
